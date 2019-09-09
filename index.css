@@ -1,0 +1,14 @@
+.toggle-episodes,
+.filmo-episodes,
+.knownfor-year,
+.tv > .year_column {
+  filter: blur(0.33em);
+  transition: filter 0.1s ease-out;
+}
+
+.toggle-episodes:hover,
+.filmo-episodes:hover,
+.knownfor-year:hover,
+.tv > .year_column:hover {
+  filter: none;
+}
